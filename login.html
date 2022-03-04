@@ -1,0 +1,284 @@
+
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  .jumbotron{
+  margin:0;
+  padding:0;
+  background-color: #F1D00A;
+  font-family: "Times New Roman", Times, serif;
+  }
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%;
+      margin: auto;
+      min-height:200px;
+  }
+
+ 
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+	body{
+ background-color: #F0F0F0;
+ font-family: "Times New Roman", Times, serif;
+ }
+   #col
+   {
+background-color: #21325E;
+color:white;
+}
+footer{
+background-color: #21325E;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+.white{
+color:white;
+}
+.panel-heading{
+font-weight:bold;
+font-size:20px;
+}
+.panel-footer{
+font-weight:bold;
+font-size:15px;
+}
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>HomeEasy</h1>      
+    <p>One stop destination for all home appliances</p>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" id="col">
+    <div class="navbar-header">
+	  <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="" width="35" height="30" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="boot.html">HomeEasy</a>
+    </a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="boot.html">Home</a></li>
+      <li ><a href="about.html">About</a></li>
+      
+		<li class="dropdown">
+        <a class="dropdown-toggle active" data-toggle="dropdown" href="#">Products
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="deals.html">Air Conditioners</a></li>
+          <li><a href="ref.html">Refrigirators</a></li>
+          <li><a href="wash.html">Washing Machines</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="login.html"> Login</a></li>
+            <li class="dropdown">
+        <a class="dropdown-toggle active" data-toggle="dropdown" href="#">Admin
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="ua.html">User Activity</a></li>
+          <li><a href="ru.html">Registered Users</a></li>
+          <li><a href="orders.html">Orders</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<center><img src="logo1.png" style="width:200px; height:200px; "></img>
+<h1> Welcome To Home Easy</h1>
+</center>
+<br><br>
+<div class="container-fluid">
+
+	<div class="row">
+    <div class="col-md-6">
+	<center><div class="panel-heading ">Login / SignIn</div>
+	<p>If you already have an account.</center><br><br>
+    <form class="form-horizontal" action="login.html">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-7">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-7">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-10">
+      <button type="submit" class="btn btn-warning">Login</button>
+    </div>
+  </div>
+</form>
+</div>
+
+<div class="col-md-6">
+	<center><div class="panel-heading ">Register / SignUp</div>
+	<p>If you are new user, create an account.</center><br>
+	<br>
+    <form class="form-horizontal" action="login.html">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-7">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-7">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Confirm Password:</label>
+    <div class="col-sm-7">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+ 
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-10">
+      <button type="submit" class="btn btn-warning">Register</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
+  </div>
+ 
+  
+<footer class="text-center text-lg-start text-white">
+    
+    <div class="container p-4 pb-0">
+      
+      <section class="">
+        
+        <div class="row">
+          
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 white">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              HomeEasy
+            </h6>
+            <p>
+            Our home appliances store is designed to allow you to run your home efficiently and smoothly. 
+            </p>
+          </div>
+          
+
+          
+
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold white">Products</h6>
+            <p>
+              <a class="white">Air Conditioners</a>
+            </p>
+            <p>
+              <a class="white">Refrigerators</a>
+            </p>
+            <p>
+              <a class="white">Washing Machines</a>
+            </p>
+           
+          </div>
+          
+
+          
+
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold white">
+              Useful links
+            </h6>
+            <p>
+              <a class="white" href="boot.html">Home</a>
+            </p>
+            <p>
+              <a class="white" href="login.html">Login</a>
+            </p>
+            <p>
+              <a class="white" href="about.html">About</a>
+            </p>
+            <p>
+              <a class="white" href="contact.html">Contact</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 white">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3 "></i> No.85, Ashok Nagar, Chennai</p>
+            <p><i class="fas fa-envelope mr-3"></i> homeeasy@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> 8144171965</p>
+            <p><i class="fas fa-print mr-3"></i> 9444288791</p>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+
+      <hr class="my-3">
+
+      
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          
+          
+            
+            <div class="p-3 text-center white">
+              © 2022 Copyright:
+              <a class="white" href="boot.html"
+                 >HomeEasy.com</a
+                >
+            </div>
+          
+          
+        </div>
+      </section>
+      
+    </div>
+    
+  </footer>
+  </body>
+</html>

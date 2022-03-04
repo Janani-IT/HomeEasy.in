@@ -1,0 +1,307 @@
+
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  .jumbotron{
+  margin:0;
+  padding:0;
+  background-color: #F1D00A;
+  font-family: "Times New Roman", Times, serif;
+  }
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%;
+      margin: auto;
+      min-height:200px;
+  }
+
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+	body{
+ background-color: #F0F0F0;
+ font-family: "Times New Roman", Times, serif;
+ }
+   #col
+   {
+background-color: #21325E;
+color:white;
+}
+ #coll
+   {
+background-color: #F1D00A;
+color:white;
+}
+footer{
+background-color: #21325E;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+.white{
+color:white;
+}
+.panel-heading{
+font-weight:bold;
+font-size:20px;
+}
+.panel-footer{
+font-weight:bold;
+font-size:15px;
+}
+
+  </style>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>HomeEasy</h1>      
+    <p>One stop destination for all home appliances</p>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" id="col">
+    <div class="navbar-header">
+	  <a class="navbar-brand" href="#">
+      <img src="logo.png" alt="" width="35" height="30" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="boot.html">HomeEasy</a>
+    </a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="boot.html">Home</a></li>
+      <li ><a href="about.html">About</a></li>
+      
+		<li class="dropdown">
+        <a class="dropdown-toggle active" data-toggle="dropdown" href="#">Products
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="deals.html">Air Conditioners</a></li>
+          <li><a href="ref.html">Refrigirators</a></li>
+          <li><a href="wash.html">Washing Machines</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li ><a href="login.html"> Login</a></li>
+      <li class="dropdown active">
+        <a class="dropdown-toggle active" data-toggle="dropdown" href="#">Admin
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li ><a href="ua.html">User Activity</a></li>
+          <li ><a href="ru.html">Registered Users</a></li>
+          <li class="active"><a href="orders.html">Orders</a></li>
+        </ul>
+      </li>
+      
+    
+	</ul>
+</nav>
+
+<br>
+<br>
+<center><img src="logo1.png" style="width:200px; height:200px; "></img>
+<h1> Orders List</h1>
+</center>
+<br><br>
+ <div class="container">
+                                                                                        
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>User Id</th>
+        <th>Name</th>
+        <th>Email id</th>
+        <th>Order id</th>
+        <th>Orders</th>
+        <th>Date of Order</th>
+        <th>Date of delivery</th>
+		<th>More details about order</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Janani</td>
+        <td>jana13@gmail.com</td>
+        <td>501</td>
+		<td>HomeEasy 1.5 Ton 3 Star 2021 Inverter Split AC, White</td>
+        <td>03-03-2022</td>
+        <td>15-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+
+      </tr>
+	  <tr>
+        <td>2</td>
+        <td>Uma</td>
+        <td>uma13@gmail.com</td>
+        <td>502</td>
+		<td>HomeEasy 2 Side-by-Side Door Refrigerator ( RT28A3122R8/HL Red Glass Door)</td>
+        <td>03-03-2022</td>
+        <td>10-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+      </tr>
+	  <tr>
+        <td>3</td>
+        <td>Baskar</td>
+        <td>bas13@gmail.com</td>
+        <td>503</td>
+		<td>HomeEasy Inverter, Hygiene Steam Fully-Automatic Front Loading Washing Machine (WW70T4020EE1TL, White, Diamond Drum)</td>
+        <td>03-03-2022</td>
+        <td>07-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+      </tr>
+	  <tr>
+        <td>4</td>
+        <td>Darshu</td>
+        <td>shu13@gmail.com</td>
+        <td>504</td>
+		<td>HomeEasy 2 Ton 3 Star 2021 Inverter Split AC</td>
+        <td>02-03-2022</td>
+        <td>09-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+      </tr>
+	  <tr>
+        <td>5</td>
+        <td>Indhu</td>
+        <td>ind13@gmail.com</td>
+        <td>505</td>
+		<td>HomeEasy Side-by-Side Door Refrigerator (RT28A3122R8/HL Silver Glass Door)</td>
+        <td>02-03-2022</td>
+        <td>06-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+      </tr>
+	  <tr>
+        <td>6</td>
+        <td>Prajit</td>
+        <td>jit13@gmail.com</td>
+        <td>506</td>
+		<td>HomeEasy 2 Ton 3 Star 2021 Inverter Split AC</td>
+        <td>01-03-2022</td>
+        <td>04-03-2022</td>
+		<td><a href="#" style="text decoration:none; color:#F1D00A">Click Here</a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+<br>
+<br>
+  
+<footer class="text-center text-lg-start text-white">
+    
+    <div class="container p-4 pb-0">
+      
+      <section class="">
+        
+        <div class="row">
+          
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 white">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              HomeEasy
+            </h6>
+            <p>
+            Our home appliances store is designed to allow you to run your home efficiently and smoothly. 
+            </p>
+          </div>
+          
+
+          
+
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold white">Products</h6>
+            <p>
+              <a class="white">Air Conditioners</a>
+            </p>
+            <p>
+              <a class="white">Refrigerators</a>
+            </p>
+            <p>
+              <a class="white">Washing Machines</a>
+            </p>
+           
+          </div>
+          
+
+          
+
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold white">
+              Useful links
+            </h6>
+            <p>
+              <a class="white" href="boot.html">Home</a>
+            </p>
+            <p>
+              <a class="white" href="login.html">Login</a>
+            </p>
+            <p>
+              <a class="white" href="about.html">About</a>
+            </p>
+            <p>
+              <a class="white" href="contact.html">Contact</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 white">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3 "></i> No.85, Ashok Nagar, Chennai</p>
+            <p><i class="fas fa-envelope mr-3"></i> homeeasy@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> 8144171965</p>
+            <p><i class="fas fa-print mr-3"></i> 9444288791</p>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+
+      <hr class="my-3">
+
+      
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          
+          
+            
+            <div class="p-3 text-center white">
+              © 2022 Copyright:
+              <a class="white" href="boot.html"
+                 >HomeEasy.com</a
+                >
+            </div>
+          
+          
+        </div>
+      </section>
+      
+    </div>
+    
+  </footer>
+  </body>
+</html>
